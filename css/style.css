@@ -3,7 +3,7 @@ body{
 }
 
 @font-face{
-	font-family: "NexaRust";
+	font-family: 'NexaRust';
 	src: url(../fonts/NexaRust.ttf) format('truetype'),
 		 url(../fonts/NexaRust.eot) format('truetype'),
 		 url(../fonts/NexaRust.woff) format('woff').
@@ -16,10 +16,10 @@ h3,
 h4,
 h5,
 h6{
-	font-family: "NexaRust", Helvetica, sans-serif;
+	font-family: 'NexaRust', Helvetica, sans-serif;
 }
 
 h1{
-	font-size: 1em;
+	font-size: 2em;
 	color: #fff;
 }
