@@ -6,7 +6,7 @@ body{
 	font-family: 'NexaRust';
 	src: url(../fonts/NexaRust.ttf) format('truetype'),
 		 url(../fonts/NexaRust.eot) format('truetype'),
-		 url(../fonts/NexaRust.woff) format('woff').
+		 url(../fonts/NexaRust.woff) format('woff'),
 		 url(../fonts/NexaRust.woff2) format('woff2');
 }
 
