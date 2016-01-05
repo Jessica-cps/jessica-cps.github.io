@@ -1,0 +1,25 @@
+body{
+	background-color: #3C5969;
+}
+
+@font-face{
+	font-family: "NexaRust";
+	src: url(../fonts/NexaRust.ttf) format('truetype'),
+		 url(../fonts/NexaRust.eot) format('truetype'),
+		 url(../fonts/NexaRust.woff) format('woff').
+		 url(../fonts/NexaRust.woff2) format('woff2');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: "NexaRust", Helvetica, sans-serif;
+}
+
+h1{
+	font-size: 1em;
+	color: #fff;
+}
