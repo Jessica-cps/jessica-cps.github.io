@@ -1,19 +1,16 @@
 html{
 	margin: 0;
 	padding: 0;
-	
 }
 
 body{
 	background-color: #3C5969;
+	color: #fff;
 }
 
 @font-face{
 	font-family: 'NexaRust';
-	src: url(../fonts/NexaRust.ttf) format('truetype'),
-		 url(../fonts/NexaRust.eot) format('truetype'),
-		 url(../fonts/NexaRust.woff) format('woff'),
-		 url(../fonts/NexaRust.woff2) format('woff2');
+	src: url(../fonts/lemonchi.ttf) format('truetype'),
 }
 
 h1,
@@ -32,5 +29,9 @@ header h1{
 }
 
 p{
-	font-size: 1em;
+	font-size: 1.5em;
+}
+
+.wrapper{
+	padding: 0 3em;
 }
