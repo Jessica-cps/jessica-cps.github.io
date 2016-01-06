@@ -9,8 +9,24 @@ body{
 }
 
 @font-face{
-	font-family: 'NexaRust';
-	src: url(../fonts/NexaRust.ttf) format('truetype');
+	font-family: 'Nexa Rust';
+	src: url('../fonts/NexaRust-fontfacekit/NexaRust.ttf') format('truetype'),
+		 url('../fonts/NexaRust-fontfacekit/NexaRust.otf') format('otf'),
+		 url('../fonts/NexaRust-fontfacekit/NexaRust.woff') format('woff'),
+		 url('../fonts/NexaRust-fontfacekit/NexaRust.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bon Veno CF';
+    src: url('../fonts/BonvenoCF-fontfacekit/BonvenoCF-Light-webfont.eot');
+    src: url('../fonts/BonvenoCF-fontfacekit/BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BonvenoCF-fontfacekit/BonvenoCF-Light-webfont.woff') format('woff'),
+         url('../fonts/BonvenoCF-fontfacekit/BonvenoCF-Light-webfont.ttf') format('truetype'),
+         url('../fonts/BonvenoCF-fontfacekit/BonvenoCF-Light-webfont.svg#bonvenocflight') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 h1,
@@ -19,7 +35,7 @@ h3,
 h4,
 h5,
 h6{
-	font-family: 'NexaRust', Helvetica, sans-serif;
+	font-family: 'Nexa Rust', Helvetica, sans-serif;
 }
 
 header h1{
@@ -29,9 +45,58 @@ header h1{
 }
 
 p{
-	font-size: 1.5em;
+	font-size: 0.9em;
+	font-family: 'Bon Veno CF', Helvetica, sans-serif;
+	line-height: 1.6em;
+}
+
+.signal{
+	font-family: Helvetica, sans-serif;
+}
+
+.text-orange{
+	color: #FFE1AD;
+}
+
+.text-pink{
+	color: #FFADAD;
+}
+
+.italic-underline{
+	border-bottom: 2px solid #CDCDCD;
 }
 
 .wrapper{
 	padding: 0 3em;
+}
+
+.sect-jobs{
+	text-align: center;
+}
+
+.sect-jobs a{
+	display: inline-block;
+	vertical-align: top;
+    color: #fff;
+    text-decoration: none;
+}
+
+.circle-sect-jobs{
+    border-radius: 13em;
+    width: 16em;
+    height: 16em;
+    overflow: hidden;
+    box-shadow: 3px 4px 0px 2px #ADCEFF;
+    display: block;
+    background-color: #fff;
+    margin: 1em 3em;
+}
+
+.sect-jog-portf{
+    background-position: center 0em;
+    background-image: url(../img/justooubarato-logo.jpg);
+    width: 16em;
+    height: 16em;
+    display: block;
+    opacity: 0.9;
 }
