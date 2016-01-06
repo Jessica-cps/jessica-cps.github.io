@@ -10,7 +10,7 @@ body{
 
 @font-face{
 	font-family: 'NexaRust';
-	src: url(../fonts/lemonchi.ttf) format('truetype'),
+	src: url(../fonts/lemonchi.ttf) format('truetype');
 }
 
 h1,
