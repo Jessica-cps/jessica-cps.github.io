@@ -67,7 +67,8 @@ p{
 }
 
 .wrapper{
-	padding: 0 3em;
+	margin: 0 auto;
+    width: 80%;
 }
 
 .sect-jobs{
