@@ -4,7 +4,11 @@ html{
 }
 
 body{
-	background-color: #3C5969;
+	background-color: #4F5A6C;
+    background-image: url(../img/my-profile-6.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 55%;
 	color: #fff;
 }
 
@@ -38,6 +42,13 @@ h6{
 	font-family: 'Nexa Rust', Helvetica, sans-serif;
 }
 
+a,
+a:hover{
+    -webkit-transition: 1s linear;
+    -moz-transition: 1s linear;
+    transition: 1s linear;
+}
+
 header h1{
 	font-size: 4em;
 	color: #fff;
@@ -45,7 +56,7 @@ header h1{
 }
 
 p{
-	font-size: 0.9em;
+	font-size: 1em;
 	font-family: 'Bon Veno CF', Helvetica, sans-serif;
 	line-height: 1.6em;
 }
@@ -71,33 +82,61 @@ p{
     width: 80%;
 }
 
-.sect-jobs{
-	text-align: center;
-}
-
 .sect-jobs a{
 	display: inline-block;
 	vertical-align: top;
     color: #fff;
     text-decoration: none;
+    text-align: right;
+    margin: 2em 2em 2em 0;
 }
 
-.circle-sect-jobs{
-    border-radius: 13em;
-    width: 16em;
-    height: 16em;
+.quad-sect-jobs{
+    width: 24em;
+    height: 10em;
     overflow: hidden;
-    box-shadow: 3px 4px 0px 2px #ADCEFF;
     display: block;
-    background-color: #fff;
-    margin: 1em 3em;
+    border-top: 10px solid #674a58;
+    border-bottom: 10px solid #674a58;
+    background-repeat: no-repeat;
+    display: block;
+    -webkit-opacity: 0.5;
+    -moz-opacity: 0.5;
+    opacity: 0.5;
 }
 
-.sect-jog-portf{
-    background-position: center 0em;
+.sect-job-portf{
     background-image: url(../img/justooubarato-logo.jpg);
-    width: 16em;
-    height: 16em;
-    display: block;
-    opacity: 0.9;
+    background-position: center -3em;
+}
+
+.sect-job-cv{
+    background-image: url(../img/pdf.jpg);
+    background-position: center center;
+}
+
+.quad-sect-jobs,
+.quad-sect-jobs:hover{
+    -webkit-transition: 0.5s linear;
+    -moz-transition: 0.5s linear;
+    transition: 0.5s linear;
+}
+
+.quad-sect-jobs:hover{
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+}
+
+.sect-jobs h4{
+    font-size: 1.4em;
+    margin: 0.5em 0;
+}
+
+.sect-jobs a:hover h4{
+    text-decoration: underline;
+}
+
+.half-side{
+    width: 50%;
 }
