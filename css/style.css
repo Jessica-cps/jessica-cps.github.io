@@ -150,12 +150,7 @@ p{
     }
 
     .sect-jobs a{
-        width: 45%;
-    }
-}
-
-@media screen and (max-width: 960px){
-    .sect-jobs a{
         width: 100%;
     }
 }
+
