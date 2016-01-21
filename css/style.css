@@ -5,7 +5,7 @@ html{
 
 body{
 	background-color: #4F5A6C;
-    background-image: url(../img/my-profile-6.jpg);
+    background-image: url(../img/my-profile-7.jpg);
     background-position: top right;
     background-repeat: no-repeat;
     background-size: 55%;
@@ -89,6 +89,8 @@ p{
     text-decoration: none;
     text-align: right;
     margin: 2em 2em 2em 0;
+    width: 24em;
+    overflow: hidden;
 }
 
 .quad-sect-jobs{
@@ -103,11 +105,19 @@ p{
     -webkit-opacity: 0.5;
     -moz-opacity: 0.5;
     opacity: 0.5;
+    background-size: 100%;
+}
+
+@media screen and (max-width: 1082px){
+    .quad-sect-jobs{
+        width: 22em;
+        height: 10em;
+    }
 }
 
 .sect-job-portf{
     background-image: url(../img/justooubarato-logo.jpg);
-    background-position: center -3em;
+    background-position: center center;
 }
 
 .sect-job-cv{
@@ -137,6 +147,23 @@ p{
     text-decoration: underline;
 }
 
-.half-side{
+.limit-side{
     width: 50%;
+}
+
+@media screen and (max-width: 1082px){
+    .limit-side{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .sect-jobs a{
+        width: 100%;
+    }
+
+    .quad-sect-jobs{
+        width: 31em;
+        height: 14em;
+    }
 }
