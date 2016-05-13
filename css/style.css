@@ -5,7 +5,7 @@ html{
 
 body{
 	background-color: #4F5A6C;
-    background-image: url(../img/my-profile-7.jpg);
+    background-image: url(../img/my-profile.jpg);
     background-position: top right;
     background-repeat: no-repeat;
     background-size: 55%;
@@ -89,7 +89,7 @@ p{
     text-decoration: none;
     text-align: right;
     margin: 2em 2em 2em 0;
-    width: 31%;
+    width: 30%;
     overflow: hidden;
 }
 
@@ -106,6 +106,12 @@ p{
     -moz-opacity: 0.5;
     opacity: 0.5;
     background-size: 100%;
+}
+
+@media screen and (max-width: 1490px){
+    .quad-sect-jobs{
+        height: 7em;
+    }
 }
 
 .sect-job-portf{
@@ -132,7 +138,7 @@ p{
 }
 
 .sect-jobs h4{
-    font-size: 1.4em;
+    font-size: 1.3em;
     margin: 0.5em 0;
 }
 
@@ -144,21 +150,90 @@ p{
     width: 50%;
 }
 
-@media screen and (max-width: 1082px){
+.left-position{
+    display: inline-block;
+    width: 80%;
+}
+
+.right-position{
+    display: inline-block;
+    vertical-align: bottom;
+    float: right;
+    position: relative;
+    top: 13em;
+}
+
+@media screen and (max-width: 1333px){
     .limit-side{
+        width: 100%;
+    }   
+
+    .quad-sect-jobs {
+        height: 10em;
+    }    
+}
+
+@media screen and (max-width: 1082px){
+    .sect-jobs a{
+        width: 44%;
+    }
+
+    .left-position{
+        display: block;
+        width: 100%;
+    }
+
+    .right-position{
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .left-position{
         width: 100%;
     }
 
     .sect-jobs a{
         width: 100%;
+        height: 8.5em;
+        margin: 1em 0;
     }
+}
 
-    .quad-sect-jobs{
-        height: 20em;
-    }
+.social-media ul{
+    display: block;
+    list-style: none;
+    padding: 0;
+}
 
-    .sect-jobs h4{
-        font-size: 2.7em;
-    }
+.social-media li{
+    display: inline-block;
+}
+
+.icon-medias{
+    display: block;
+    background-image: url(../img/icons-social-media_04.png);
+    width: 34px;
+    height: 34px;
+    margin: 0 0.2em;
+}
+
+.icon-medias:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+}
+
+.icon-linkedin{
+    background-position: 0 0;
+}
+
+.icon-github{
+    background-position: -37px 0;
+}
+
+.icon-facebook{
+    background-position: -74px 0;
 }
 
