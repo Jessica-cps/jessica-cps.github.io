@@ -168,9 +168,7 @@ p{
         width: 100%;
     }   
 
-    .quad-sect-jobs {
-        height: 10em;
-    }    
+       
 }
 
 @media screen and (max-width: 1082px){
@@ -186,6 +184,10 @@ p{
     .right-position{
         top: 0;
     }
+
+     .quad-sect-jobs {
+        height: 10em;
+    }
 }
 
 @media screen and (max-width: 800px){
@@ -196,6 +198,10 @@ p{
     .sect-jobs a{
         width: 100%;
         margin: 1em 0;
+    }
+
+    .quad-sect-jobs {
+        height: 11em;
     }
 }
 
